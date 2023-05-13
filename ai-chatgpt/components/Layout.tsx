@@ -30,7 +30,7 @@ const Layout: FC<LayoutProps> = ({
       <div className="px-8 bg-accents-0">{children}</div>
 
       <footer className="py-10 w-full mt-auto border-t flex items-center justify-center bg-accents-1 z-20">
-        <span className="text-primary">&copy; Finlyte</span>
+        <span className="text-primary">&copy; FinLyte</span>
         <span className="text-secondary">&nbsp;Co-piloting your financial security journey</span>
       </footer>
     </div>
