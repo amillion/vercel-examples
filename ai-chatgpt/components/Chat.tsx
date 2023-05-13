@@ -9,7 +9,7 @@ const COOKIE_NAME = 'nextjs-example-ai-chat-gpt3-steamship'
 export const initialMessages: Message[] = [
   {
     who: 'bot',
-    message: 'Hi! I read your book, parsed it with LangChain and Steamship. Ask me a question!',
+    message: 'G'day! Please explain the financial situation you are struggling with...',
   },
 ]
 
@@ -141,7 +141,7 @@ export function Chat() {
 
       {messages.length < 2 && (
         <span className="mx-auto flex flex-grow text-gray-600 clear-both">
-          Type a message to start the conversation
+          Type your answer below to find out how you can improve your situation
         </span>
       )}
       <InputMessage
