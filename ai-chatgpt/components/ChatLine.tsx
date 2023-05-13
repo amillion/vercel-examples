@@ -9,6 +9,8 @@ export type Message = {
   message?: string
 }
 
+const botName = 'FinLyte Bot'
+
 // loading placeholder animation for the chat line
 export const LoadingChatLine = () => (
   <div className="flex min-w-full animate-pulse px-4 py-5 sm:px-6">
@@ -16,7 +18,7 @@ export const LoadingChatLine = () => (
       <div className="min-w-0 flex-1">
         <p className="font-large text-xxl text-gray-900">
           <a href="#" className="hover:underline">
-            {bot}
+            {botName}
           </a>
         </p>
         <div className="space-y-4 pt-4">
@@ -58,7 +60,7 @@ export function ChatLine({ who = 'bot', message }: Message) {
             <div className="flex-1 gap-4">
               <p className="font-large text-xxl text-gray-900">
                 <a href="#" className="hover:underline">
-                  {who == 'bot' ? 'FinLyteBot' : 'You'}
+                  {who == 'bot' ? botName : 'You'}
                 </a>
               </p>
               <p
