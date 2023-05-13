@@ -7,7 +7,7 @@ function Home() {
       <section className="flex flex-col gap-6">
         <Text variant="h1">FinLyte - Co-piloting your financial security</Text>
         <Text className="text-zinc-600">
-          We tell you what the banks won't
+          We tell you what the banks won&rsquo;t
         </Text>
       </section>
 
