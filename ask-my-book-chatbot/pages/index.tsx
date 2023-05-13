@@ -28,7 +28,7 @@ function Home() {
             <div className="flex">
               <div className="ml-3">
                 <h3 className="text-sm font-medium text-red-800">Error</h3>
-                <p>Front-end not connected.</p>
+                <p>Front-end not connected. {baseUrl}</p>
                 <br/>
                 <p>If this issue persists, please ping us on <a href="https://steamship.com/discord" className="font-semibold text-gray-900 underline dark:text-white decoration-sky-500">Discord</a>. We&apos;re happy to help. </p>
               </div>
