@@ -20,7 +20,7 @@ const Layout: FC<LayoutProps> = ({
   return (
     <div className="mx-auto h-screen flex flex-col">
       <Head>
-        {title && <title>{`${title} - Steamship + Vercel Examples`}</title>}
+        {title && <title>{`${title} - FinLyte`}</title>}
         {description && <meta name="description" content={description} />}
         <link rel="icon" href="/favicon.ico" />
       </Head>
