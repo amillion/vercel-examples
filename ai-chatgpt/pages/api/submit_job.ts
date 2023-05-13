@@ -10,7 +10,7 @@ export default async function handler(
   const { messages } = req.body as any;
 
   if (!messages) {
-    return res.json({ error: "Please enter a message." })
+    return res.json({ error: "Please enter a message. - " })
   }
 
   const {message, who} = messages[messages.length - 1]
