@@ -18,7 +18,7 @@ class ChatbotPackage(PackageService):
             client=self.client, key=chat_history_handle, k=2
         )
         chatgpt = LLMChain(
-            llm=OpenAI(client=self.client, temperature=0),
+            llm=OpenAI(client=self.client, temperature=0.4),
             prompt=CHATBOT_PROMPT,
             memory=steamship_memory,
         )
