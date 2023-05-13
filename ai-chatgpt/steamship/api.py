@@ -1,6 +1,7 @@
 from langchain.chains import LLMChain
 from prompt import CHATBOT_PROMPT
 from steamship.invocable import PackageService, get, post
+import logging
 
 from steamship_langchain.llms import OpenAI
 from steamship_langchain.memory import ConversationBufferMemory, ConversationBufferWindowMemory
@@ -10,6 +11,7 @@ class ChatbotPackage(PackageService):
     @post("/send_message")
     def send_message(self, message: str, chat_history_handle: str) -> str:
         """Returns an AI-generated response to a user conversation, based on limited prior context."""
+        logging.exception("send message")
 
         # steamship_memory will persist/retrieve conversation across API calls
         steamship_memory = ConversationBufferWindowMemory(
