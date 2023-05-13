@@ -5,9 +5,9 @@ function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-6">
-        <Text variant="h1">FinLyte - Making finance personal</Text>
+        <Text variant="h1">FinLyte - Co-piloting your financial security</Text>
         <Text className="text-zinc-600">
-          Personal financial advice for everyone!
+          We tell you what the banks won't
         </Text>
       </section>
 
