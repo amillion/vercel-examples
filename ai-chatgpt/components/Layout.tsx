@@ -30,26 +30,8 @@ const Layout: FC<LayoutProps> = ({
       <div className="px-8 bg-accents-0">{children}</div>
 
       <footer className="py-10 w-full mt-auto border-t flex items-center justify-center bg-accents-1 z-20">
-        <span className="text-primary">Created by</span>
-        <a
-          href="https://steamship.com"
-          aria-label="Steamship.com Link"
-          target="_blank"
-          rel="noreferrer"
-          className="text-black "
-        >
-          <Logo
-            className="inline-block h-6 ml-3 text-primary"
-          /> Steamship
-        </a>. Based on the
-        <a
-          href="https://vercel.com/templates/next.js/ai-gpt3-chatbot"
-          target="_blank"
-          rel="noreferrer"
-          className="text-black ml-1 mr-1"
-        > the ai-gpt3-chatbot
-        </a> template.
-
+        <span className="text-primary">&copy; Finlyte</span>
+        <span className="text-secondary">&nbsp;Co-piloting your financial security journey</span>
       </footer>
     </div>
   )
