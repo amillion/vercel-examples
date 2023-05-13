@@ -3,7 +3,7 @@ import { Button } from './Button'
 import { type Message, ChatLine, LoadingChatLine } from './ChatLine'
 import { useCookies } from 'react-cookie'
 
-const COOKIE_NAME = 'nextjs-example-ai-chat-gpt3-steamship'
+const COOKIE_NAME = 'finlyte'
 
 // default first message to display in UI (not necessary to define the prompt)
 export const initialMessages: Message[] = [
