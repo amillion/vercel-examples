@@ -11,9 +11,9 @@ function App({ Component, pageProps }: AppProps) {
 
   return (
     <Layout
-      title="ai-chatgpt"
+      title="FinLyte"
       path="ai-chatgpt"
-      description="ai-chatgpt"
+      description="finlyte personal financial advisor"
     >
       <Component {...pageProps} />
       <Analytics />
