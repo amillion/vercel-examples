@@ -19,7 +19,7 @@ export default function Nav({ path, deployButton }: NavProps) {
 
   return (
     <nav className="border-b border-gray-200 py-5 relative z-20 bg-background shadow-[0_0_15px_0_rgb(0,0,0,0.1)]">
-      <div className="flex items-center lg:px-6 px-8 mx-auto max-w-7xl px-14">
+      <div style="display:none;" className="flex items-center lg:px-6 px-8 mx-auto max-w-7xl px-14">
         <div className="flex flex-row items-center">
           <Link href="https://www.steamship.com/">
             <Logo className={`w-8 h-8 text-black`} ></Logo>
