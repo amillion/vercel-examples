@@ -9,10 +9,6 @@ export interface NavProps {
 }
 
 export default function Nav({ path, deployButton }: NavProps) {
-  const displayPath = ['Vercel Examples']
-    .concat(path?.split('/').filter(Boolean) || [])
-    .join(' / ')
-  const repositoryUrl = deployButton?.repositoryUrl || `${REPO_URL}/${path}`
 
   return (
     <nav className="border-b border-gray-200 py-5 relative z-20 bg-background shadow-[0_0_15px_0_rgb(0,0,0,0.1)]">
